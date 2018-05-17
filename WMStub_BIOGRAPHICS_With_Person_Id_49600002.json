@@ -1,0 +1,48 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/person/49600002/biographics/default"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "identityHandle": {
+        "unique_identifier": "1e15169ddd1622912e91600531f80aa0427a79d33f361aefe35c7a0a7109676_3",
+        "visibility_marker": null,
+        "interface_identifier": "IDENTITY_HANDLE_109676_THREE"
+      },
+      "title": {
+        "code": "MR",
+        "shortDescription": "Mr",
+        "longDescription": ""
+      },
+      "language": {
+        "code": "ENG",
+        "shortDescription": "",
+        "longDescription": "ENGLISH"
+      },
+      "givenName": "McGinnis",
+      "familyName": "five",
+      "fullName": "Terry",
+      "gender": {
+        "code": "F",
+        "shortDescription": "",
+        "longDescription": "Male"
+      },
+      "dayOfBirth": 2,
+      "monthOfBirth": 5,
+      "yearOfBirth": 1964,
+      "photoUrl": "https://img0.etsystatic.com/041/0/6315841/il_340x270.555295544_60sp.jpg",
+      "nationality": {
+        "code": "DU",
+        "shortDescription": "",
+        "longDescription": "Dutch"
+      },
+      "placeOfBirth": null,
+      "passport": "PP491",
+      "religion": null
+    }
+  }
+}

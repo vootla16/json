@@ -1,0 +1,142 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/49100001/identities"
+    },
+    "response": {
+        "headers": {"Content-Type": "application/json"},
+        "jsonBody": [
+            {
+                "created": "2016-09-08T14:58:55.324268",
+                "internal_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "XXXXXXXXXX"
+                },
+                "external_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "handle_value": "XXXXXXXXXX",
+                    "handle_space": "CID_PEOPLE"
+                },
+                "containing_person_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "XXXXXXXXXX"
+                },
+                "source": "CID",
+                "audit_history": null,
+                "biometrics": [],
+                "descriptions": [],
+                "references": [],
+                "conditions": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "XXXXXXXXXX1",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "XXXXXXXXXX"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "XXXXXXXXXX",
+                            "handle_value": "XXXXXXXXXX",
+                            "handle_space": "CID_CONDITION"
+                        },
+                        "conditionType": {
+                            "code": "MEDICATION",
+                            "shortDescription": "Medication",
+                            "longDescription": "Medication"
+                        },
+                        "conditionDate": "2016-09-08T00:00:00.000Z",
+                        "conditionNote": "DS: CLAIMED MEDICAL CONDITION\\n XXXXXXXXXX",
+                        "conditionUpdateDate": "2016-09-08T15:01:15.022Z",
+                        "conditionEndDate": "2016-09-08T15:01:15.022Z",
+                        "originatingUser": null,
+                        "created": "2016-09-08T14:58:55.277277",
+                        "createdBy": null
+                    },
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "XXXXXXXXXX2",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "XXXXXXXXXX"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "XXXXXXXXXX",
+                            "handle_value": "XXXXXXXXXX",
+                            "handle_space": "CID_CONDITION"
+                        },
+                        "conditionType": {
+                            "code": "MEDICATION",
+                            "shortDescription": "Medication",
+                            "longDescription": "Medication"
+                        },
+                        "conditionDate": "2016-09-08T00:00:00.000Z",
+                        "conditionNote": "DS: CLAIMED MEDICAL CONDITION\\n XXXXXXXXXX",
+                        "conditionUpdateDate": "2016-09-08T15:01:15.022Z",
+                        "conditionEndDate": "2016-09-08T15:01:15.022Z",
+                        "originatingUser": null,
+                        "created": "2016-09-08T14:58:55.277277",
+                        "createdBy": null
+                    }
+                ],
+                "created_by": null,
+                "identity_type": "APPLICATION_ENTERED_IDENTITY",
+                "biographic_sets": [],
+                "identity_media_sets": []
+            },
+            {
+                "created": "2018-04-08T14:58:55.324268",
+                "internal_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "XXXXXXXXXX"
+                },
+                "external_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "handle_value": "XXXXXXXXXX",
+                    "handle_space": "CID_PEOPLE"
+                },
+                "containing_person_handle": {
+                    "unique_identifier": "XXXXXXXXXX",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "XXXXXXXXXX"
+                },
+                "source": "CID",
+                "audit_history": null,
+                "biometrics": [],
+                "descriptions": [],
+                "references": [],
+                "conditions": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "XXXXXXXXXX1",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "XXXXXXXXXX"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "XXXXXXXXXX",
+                            "handle_value": "XXXXXXXXXX",
+                            "handle_space": "CID_CONDITION"
+                        },
+                        "conditionType": {
+                            "code": "VULNERABLE",
+                            "shortDescription": "vulnerable",
+                            "longDescription": "Vulnerable"
+                        },
+                        "conditionDate": "1988-04-20T14:02:39.77Z",
+                        "conditionNote": "DS: CLAIMED MEDICAL CONDITION\\n XXXXXXXXXX",
+                        "conditionUpdateDate": "2018-04-20T01:54:54.526Z",
+                        "conditionEndDate": "2018-01-20T01:54:54.526Z",
+                        "originatingUser": null,
+                        "created": "2018-04-08T14:58:55.324268Z",
+                        "createdBy": null
+                    }
+                ],
+                "created_by": null,
+                "identity_type": "APPLICATION_ENTERED_IDENTITY",
+                "biographic_sets": [],
+                "identity_media_sets": []
+            }
+        ]
+    , "status": 200
+    }
+}
