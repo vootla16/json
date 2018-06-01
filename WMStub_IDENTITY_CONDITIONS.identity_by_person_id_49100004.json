@@ -1,7 +1,7 @@
 {
     "request": {
         "method": "GET",
-        "url": "/49100004/identities"
+        "url": "/CID_PEOPLE_49100004/identities"
     },
     "response": {
         "headers": {"Content-Type": "application/json"},

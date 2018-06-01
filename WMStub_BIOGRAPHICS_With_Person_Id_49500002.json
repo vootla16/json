@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "url": "/person/49500002/biographics/default"
+    "url": "/person/CID_PEOPLE_49500002/biographics/default"
   },
   "response": {
     "headers": {

@@ -1,0 +1,418 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/23456/identities"
+    },
+    "response": {
+        "headers": {"Content-Type": "application/json"},
+        "jsonBody": [
+            {
+                "created": "2017-01-09T16:16:22.933",
+                "internal_handle": {
+                    "unique_identifier": "CID_PEOPLE_10508128",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "CID_CASES_WITH/SLASH10508128"
+                },
+                "external_handle": {
+                    "unique_identifier": "CID_PEOPLE_10508128",
+                    "handle_value": "10508128",
+                    "handle_space": "CID_PEOPLE"
+                },
+                "containing_person_handle": {
+                    "unique_identifier": "CID_PEOPLE_10508128",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "CID_PEOPLE_10508128"
+                },
+                "source": "IPT",
+                "audit_history": null,
+                "identity_type": null,
+                "identity_subtype": null,
+                "biometrics": [],
+                "descriptions": [],
+                "references": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "eb4465bfb74587cc40babe30d41568ae5f8873f6bcb0eff4f7de2bfd9df8b796",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "REF_10508128"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "REF_10508128",
+                            "handle_value": "50_1233241234234",
+                            "handle_space": "CRS_PASSPORTS"
+                        },
+                        "referenceType": {
+                            "code": "PASSPORT",
+                            "shortDescription": null,
+                            "longDescription": null
+                        },
+                        "referenceValue": "REF_VAL_10508128",
+                        "created": "2016-08-02T10:02:24.035480",
+                        "createdBy": null
+                    }
+                ],
+                "conditions": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "fbf61e9177d774cc4f3c42dc595f99cbf51d97581d6ea0fc574bf63d7b4ca169",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "CID_CASES_condition_CID_CASES_70017001"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "CID_CASES_condition_CID_CASES_70017001",
+                            "handle_value": "condition_CID_CASES_70017001",
+                            "handle_space": "CID_CASES"
+                        },
+                        "conditionType": {
+                            "code": "COMPLIANCE_FLAG",
+                            "shortDescription": "COMPLIANCE_FLAG",
+                            "longDescription": "COMPLIANCE_FLAG"
+                        },
+                        "conditionDate": "2017-01-09T01:54:54.526Z",
+                        "conditionNote": "Compliance condition create",
+                        "conditionUpdateDate": "2017-01-09T01:54:54.526Z",
+                        "conditionEndDate": "2017-02-08T01:54:54.526Z",
+                        "originatingUser": null,
+                        "created": "2017-02-25T17:51:49.400",
+                        "createdBy": null,
+                        "attributes": {},
+                        "category": null
+                    }
+                ],
+                "created_by": null,
+                "biographic_sets": [
+                    {
+                        "internal_handle": {
+                            "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "DELETE_TEST_10508128"
+                        },
+                        "external_handle": null,
+                        "biographic_set_purpose": {
+                            "code": "CB",
+                            "shortDescription": null,
+                            "longDescription": null
+                        },
+                        "created": "2017-02-25T17:51:49.438",
+                        "created_by": null,
+                        "biographics": {
+                            "DATE_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "DATE_OF_BIRTH_10508128"
+                                },
+                                "type": "DATE_OF_BIRTH",
+                                "value": "1987-04-11",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "DAY_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "23083df821b9b14d2d234975c8bdb84e4f131b0be3c887a24e536195311ca3f4",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_DAY_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "DAY_OF_BIRTH",
+                                "value": "11",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "FAMILY_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "FAMILY_NAME_10508128"
+                                },
+                                "type": "FAMILY_NAME",
+                                "value": "Stone",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "FULL_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "FULL_NAME10508128"
+                                },
+                                "type": "FULL_NAME",
+                                "value": "Joss Stone",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "GENDER": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "GENDER_10508128"
+                                },
+                                "type": "GENDER",
+                                "value": "F",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null,
+                                "reference_data_set": "GENDER"
+                            },
+                            "GIVEN_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "GIVEN_NAME_10508128"
+                                },
+                                "type": "GIVEN_NAME",
+                                "value": "Joss",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "MONTH_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "1a90682a5d584afd6f7bb25894c2cf0a91ebf00ac551e06af34c25df9a68f265",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_MONTH_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "MONTH_OF_BIRTH",
+                                "value": "4",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "NATIONALITY": {
+                                "internal_handle": {
+                                    "unique_identifier": "FAMILY_NAME_50_2_10508128",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "NATIONALITY_2_10508128"
+                                },
+                                "type": "NATIONALITY",
+                                "value": "CTE",
+                                "value_type": "string",
+                                "created": "2017-10-02T10:01:24.035480",
+                                "created_by": "BLUER"
+                            },
+                            "YEAR_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "510867b9716ace4cf3e98b20be4f18d76b53064a5bc986c503f2826d48cf372f",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_YEAR_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "YEAR_OF_BIRTH",
+                                "value": "1987",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            }
+                        }
+                    }
+                ],
+                "identity_media_sets": []
+            },
+            {
+                "created": "2017-01-09T16:16:22.933",
+                "internal_handle": {
+                    "unique_identifier": "CID_PEOPLE_210508128",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "CID_CASES_WITH/SLASH210508128"
+                },
+                "external_handle": {
+                    "unique_identifier": "CID_PEOPLE_210508128",
+                    "handle_value": "10508128",
+                    "handle_space": "CID_PEOPLE2"
+                },
+                "containing_person_handle": {
+                    "unique_identifier": "CID_PEOPLE_210508128",
+                    "visibility_marker": "DEFAULT",
+                    "interface_identifier": "CID_PEOPLE_210508128"
+                },
+                "source": "IPT",
+                "audit_history": null,
+                "identity_type": null,
+                "identity_subtype": null,
+                "biometrics": [],
+                "descriptions": [],
+                "references": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "eb4465bfb74587cc40babe30d41568ae5f8873f6bcb0eff4f7de2bfd9df8b796",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "REF_10508128"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "REF_10508128",
+                            "handle_value": "50_1233241234234",
+                            "handle_space": "CRS_PASSPORTS"
+                        },
+                        "referenceType": {
+                            "code": "PASSPORT",
+                            "shortDescription": null,
+                            "longDescription": null
+                        },
+                        "referenceValue": "REF_VAL_10508128",
+                        "created": "2016-08-02T10:02:24.035480",
+                        "createdBy": null
+                    }
+                ],
+                "conditions": [
+                    {
+                        "internalHandle": {
+                            "unique_identifier": "fbf61e9177d774cc4f3c42dc595f99cbf51d97581d6ea0fc574bf63d7b4ca169",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "CID_CASES_condition_CID_CASES_70017001"
+                        },
+                        "externalHandle": {
+                            "unique_identifier": "CID_CASES_condition_CID_CASES_70017001",
+                            "handle_value": "condition_CID_CASES_70017001",
+                            "handle_space": "CID_CASES"
+                        },
+                        "conditionType": {
+                            "code": "COMPLIANCE_FLAG",
+                            "shortDescription": "COMPLIANCE_FLAG",
+                            "longDescription": "COMPLIANCE_FLAG"
+                        },
+                        "conditionDate": "2017-01-09T01:54:54.526Z",
+                        "conditionNote": "Compliance condition create",
+                        "conditionUpdateDate": "2017-01-09T01:54:54.526Z",
+                        "conditionEndDate": "2017-02-08T01:54:54.526Z",
+                        "originatingUser": null,
+                        "created": "2017-02-25T17:51:49.400",
+                        "createdBy": null,
+                        "attributes": {},
+                        "category": null
+                    }
+                ],
+                "created_by": null,
+                "biographic_sets": [
+                    {
+                        "internal_handle": {
+                            "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                            "visibility_marker": "DEFAULT",
+                            "interface_identifier": "DELETE_TEST_10508128"
+                        },
+                        "external_handle": null,
+                        "biographic_set_purpose": {
+                            "code": "CB",
+                            "shortDescription": null,
+                            "longDescription": null
+                        },
+                        "created": "2017-02-25T17:51:49.438",
+                        "created_by": null,
+                        "biographics": {
+                            "DATE_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "DATE_OF_BIRTH_10508128"
+                                },
+                                "type": "DATE_OF_BIRTH",
+                                "value": "1987-04-11",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "DAY_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "23083df821b9b14d2d234975c8bdb84e4f131b0be3c887a24e536195311ca3f4",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_DAY_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "DAY_OF_BIRTH",
+                                "value": "11",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "FAMILY_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "FAMILY_NAME_10508128"
+                                },
+                                "type": "FAMILY_NAME",
+                                "value": "Stone",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "FULL_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "FULL_NAME10508128"
+                                },
+                                "type": "FULL_NAME",
+                                "value": "Joss Stone",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "GENDER": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "GENDER_10508128"
+                                },
+                                "type": "GENDER",
+                                "value": "F",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null,
+                                "reference_data_set": "GENDER"
+                            },
+                            "GIVEN_NAME": {
+                                "internal_handle": {
+                                    "unique_identifier": "b044e920ffa1165b4d0f4618666801fc61439d2d51e6fc203dde7bb947b438c2",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "GIVEN_NAME_10508128"
+                                },
+                                "type": "GIVEN_NAME",
+                                "value": "Joss",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "MONTH_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "1a90682a5d584afd6f7bb25894c2cf0a91ebf00ac551e06af34c25df9a68f265",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_MONTH_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "MONTH_OF_BIRTH",
+                                "value": "4",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            },
+                            "NATIONALITY": {
+                                "internal_handle": {
+                                    "unique_identifier": "FAMILY_NAME_50_2_10508128",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "NATIONALITY_2_10508128"
+                                },
+                                "type": "NATIONALITY",
+                                "value": "CTE",
+                                "value_type": "string",
+                                "created": "2017-10-02T10:01:24.035480",
+                                "created_by": "BLUER"
+                            },
+                            "YEAR_OF_BIRTH": {
+                                "internal_handle": {
+                                    "unique_identifier": "510867b9716ace4cf3e98b20be4f18d76b53064a5bc986c503f2826d48cf372f",
+                                    "visibility_marker": "DEFAULT",
+                                    "interface_identifier": "CB_YEAR_OF_BIRTH_DELETE_TEST_10508128"
+                                },
+                                "type": "YEAR_OF_BIRTH",
+                                "value": "1987",
+                                "value_type": "string",
+                                "created": "2017-02-25T17:51:49.438",
+                                "created_by": null
+                            }
+                        }
+                    }
+                ],
+                "identity_media_sets": []
+            }
+        ]
+    , "status": 200}}

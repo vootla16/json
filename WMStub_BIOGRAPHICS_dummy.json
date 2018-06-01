@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "url": "/person/CID_PEOPLE_49100001/biographics/default"
+    "url": "/person/123456/biographics/default"
   },
   "response": {
     "headers": {
@@ -14,34 +14,34 @@
         "interface_identifier": "IDENTITY_HANDLE_109676_THREE"
       },
       "title": {
-        "code": "MR",
-        "shortDescription": "Mr",
-        "longDescription": ""
+        "code": "DR",
+        "shortDescription": "Dr",
+        "longDescription": "Doctor"
       },
       "language": {
         "code": "ENG",
         "shortDescription": "",
         "longDescription": "ENGLISH"
       },
-      "givenName": "Jordan",
-      "familyName": "Jordan",
-      "fullName": "Hal one",
+      "givenName": "Sarah-Two",
+      "familyName": "McCabe",
+      "fullName": "Thirdy Three Anda-Third",
       "gender": {
         "code": "M",
         "shortDescription": "",
         "longDescription": "Male"
       },
-      "dayOfBirth": 2,
-      "monthOfBirth": 5,
-      "yearOfBirth": 1964,
-      "photoUrl": null,
+      "dayOfBirth": 12,
+      "monthOfBirth": 12,
+      "yearOfBirth": 1975,
+      "photoUrl": "",
       "nationality": {
-        "code": "DU",
+        "code": "IND",
         "shortDescription": "",
-        "longDescription": "Dutch"
+        "longDescription": "India"
       },
       "placeOfBirth": null,
-      "passport": "PP491",
+      "passport": "1233241234234",
       "religion": null
     }
   }
